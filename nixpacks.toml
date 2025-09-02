@@ -1,0 +1,11 @@
+[phases.setup]
+nixpkgs = ["nodejs", "npm"]
+
+[phases.install]
+cmd = "npm install"
+
+[phases.build]
+cmd = "echo 'Build phase - no build needed'"
+
+[start]
+cmd = "npm start"
